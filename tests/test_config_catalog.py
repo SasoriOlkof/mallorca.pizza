@@ -294,3 +294,16 @@ def test_duplicate_restaurant_ids_are_rejected(tmp_path: Path) -> None:
 
     with pytest.raises(ConfigError, match="Duplicate restaurant id"):
         build_catalog_from_bundles([bundle, bundle])
+
+
+def test_repository_catalog_includes_shine_restaurant() -> None:
+    catalog = build_catalog(Path("restaurants"))
+
+    bundle = catalog.restaurants_by_id["shine"]
+    assert bundle.restaurant.enabled
+    assert bundle.restaurant.canonical_host == "shine.mallorca.pizza"
+    assert bundle in catalog.enabled_restaurants
+    assert any(
+        asset.logical_path == "branding/menu-shine-pizzeria.png"
+        for asset in bundle.assets
+    )

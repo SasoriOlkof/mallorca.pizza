@@ -388,7 +388,8 @@ docs/
 
 ## Pending decisions
 
-* Real content and assets for `shine`, `belly` and `bollywood`.
+* Final review of `shine` details and real content/assets for `belly` and
+  `bollywood`.
 * Whether AVIF enters v1.
 * Whether the initial YAML, text, menu and image limits need adjustment once
   real content is available.

@@ -1,0 +1,8 @@
+title: Shine Pizzeria | Pizzas, kebab y burgers
+description: Shine Pizzeria ofrece pizzas, kebab, burgers, menus y entrantes con sabor que brilla.
+robots:
+  index: true
+  follow: true
+sitemap_paths:
+  - /
+structured_data_enabled: true

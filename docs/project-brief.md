@@ -135,7 +135,8 @@ Idealmente, anadir un restaurante consistira en:
 
 ## Decisiones pendientes
 
-* Contenido y assets reales para los restaurantes iniciales.
+* Revision final de datos de `shine` y contenido/assets reales para los
+  restaurantes iniciales restantes.
 * Inclusion de AVIF en v1.
 * Ajustes finales de limites de YAML, textos, menus, imagenes y numero de assets
   cuando exista contenido real.

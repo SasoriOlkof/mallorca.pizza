@@ -182,7 +182,8 @@ Alcance pendiente:
 
 ## Decisiones pendientes globales
 
-* Contenido y assets reales de restaurantes iniciales.
+* Revision final de datos de `shine` y contenido/assets reales de `belly` y
+  `bollywood`.
 * Inclusion de AVIF.
 * Ajustes finales de limites para YAML, textos, menus, imagenes y assets.
 * Red o IP de Traefik para `FORWARDED_ALLOW_IPS`.

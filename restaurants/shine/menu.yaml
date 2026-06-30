@@ -1,0 +1,222 @@
+categories:
+  - id: menus
+    name: Menus
+    items:
+      - id: menu-kebab
+        name: Menu Kebab
+        price_cents: 895
+      - id: menu-durum
+        name: Menu Durum
+        price_cents: 1195
+      - id: menu-plato
+        name: Menu Plato
+        price_cents: 1195
+      - id: menu-pizza
+        name: Menu Pizza
+        price_cents: 1295
+      - id: menu-nuggets
+        name: Menu Nuggets
+        price_cents: 1195
+      - id: menu-alitas
+        name: Menu Alitas
+        price_cents: 1195
+      - id: menu-falafel
+        name: Menu Falafel
+        price_cents: 1095
+      - id: menu-fried-chicken
+        name: Fried Chicken
+        price_cents: 1295
+  - id: starters
+    name: Starters
+    items:
+      - id: patatas-con-queso
+        name: Patatas con queso
+        price_cents: 500
+      - id: nuggets-patatas
+        name: Nuggets + patatas
+        price_cents: 700
+      - id: falafel-patatas
+        name: Falafel + patatas
+        price_cents: 700
+      - id: alitas-de-pollo
+        name: Alitas de pollo
+        price_cents: 650
+  - id: kebab
+    name: Kebab
+    items:
+      - id: doner-kebab
+        name: Doner Kebab
+        price_cents: 700
+      - id: doner-kebab-solo-carne
+        name: Doner Kebab solo carne
+        price_cents: 800
+      - id: durum
+        name: Durum
+        price_cents: 600
+      - id: durum-solo-carne
+        name: Durum solo carne
+        price_cents: 700
+      - id: durum-falafel
+        name: Durum falafel
+        price_cents: 700
+  - id: plato
+    name: Plato
+    items:
+      - id: pollo-y-carne
+        name: Pollo y carne
+        price_cents: 600
+      - id: falafel
+        name: Falafel
+        price_cents: 600
+      - id: ensalada-y-patatas
+        name: Ensalada y patatas
+        price_cents: 700
+      - id: plato-solo-carne
+        name: Plato solo carne
+        price_cents: 700
+  - id: salad
+    name: Salad
+    items:
+      - id: ensalada-mixta
+        name: Ensalada mixta
+        price_cents: 600
+      - id: ensalada-de-atun
+        name: Ensalada de atun
+        price_cents: 600
+      - id: ensalada-de-kebab
+        name: Ensalada de kebab
+        price_cents: 700
+  - id: burgers
+    name: Burgers
+    items:
+      - id: hamburguesa-de-pollo
+        name: Hamburguesa de pollo
+        description: Patatas + bebida
+        price_cents: 700
+      - id: hamburguesa-de-doner
+        name: Hamburguesa de doner
+        description: Patatas + bebida
+        price_cents: 700
+      - id: hamburguesa-de-queso
+        name: Hamburguesa de queso
+        description: Patatas + bebida
+        price_cents: 800
+  - id: pizzas
+    name: Pizzas
+    items:
+      - id: pizza-margarita
+        name: Margarita
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, queso, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-prosciutto
+        name: Prosciutto
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, queso, mozzarella, jamon york y oregano.
+        price_cents: 895
+      - id: pizza-cuatro-quesos
+        name: 4 Quesos
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, gorgonzola, roquefort, parmesano, aceitunas negras y oregano.
+        price_cents: 895
+      - id: pizza-cuatro-estaciones
+        name: 4 Estaciones
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, gambas, jamon york, pimiento rojo, cebolla, huevo, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-bolognesa
+        name: Bolognesa
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, salsa bolognesa, queso, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-jasan
+        name: Jasan
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, gambas, salmon ahumado, atun, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-vegetal
+        name: Vegetal
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, espinacas, maiz, champinones, alcachofas, cebolla, aceitunas negras, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-vegetal-ii
+        name: Vegetal II
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pimiento verde y rojo, cebolla, aceitunas negras, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-salami
+        name: Salami
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, salami, aceitunas negras, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-pepperoni
+        name: Pepperoni
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pepperoni, pimiento rojo y verde, cebolla, aceitunas negras, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-pollo
+        name: Pollo
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pollo con alino picante, champinones, cebolla, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-caprichosa
+        name: Caprichosa
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, bacon, champinones, cebolla, huevo, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-frutti-di-mare
+        name: Frutti di Mare
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, gambas, mejillones, calamares con ajo y perejil, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-hawai
+        name: Hawai
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, bacon, pina, datiles, cebolla, roquefort, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-tropical
+        name: Tropical
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, jamon york, pina, maiz, datiles, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-frankfurt
+        name: Frankfurt
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, salchicha frankfurt, bacon, cebolla, champinones, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-atun
+        name: Atun
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, atun, maiz, pimiento verde, cebolla, aceitunas negras, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-campesina
+        name: Campesina
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pollo, bacon, pimiento verde, cebolla, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-alaska
+        name: Alaska
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Crema de leche, salmon, cebolla, champinones, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-flambee
+        name: Flambee
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Crema de leche, bacon, cebolla, champinones, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-kebab
+        name: Kebab
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, carne de kebab, champinones, cebolla, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-curri
+        name: Curri
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pollo, pimiento verde, roquefort, cebolla, curri, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-valiente
+        name: Valiente
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pollo, bacon, alino picante, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-calzone
+        name: Calzone
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, jamon york, champinones, mozzarella y oregano.
+        price_cents: 895
+      - id: pizza-barbacoa
+        name: Barbacoa
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pollo, bacon y salsa barbacoa.
+        price_cents: 895
+      - id: pizza-chicken-tikka
+        name: Chicken Tikka
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, pollo, cebolla y salsa chicken tikka.
+        price_cents: 895
+      - id: pizza-bollywood
+        name: Bollywood
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Salsa especial barbacoa y carbonara, mas ingredientes a elegir.
+        price_cents: 895
+      - id: pizza-bollywood-ii
+        name: Bollywood II
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, anchoas, cebolla, champinones y mozzarella.
+        price_cents: 895
+      - id: pizza-cuatro-carnes
+        name: 4 Carnes
+        description: Disponible en 28 cm 8,95 EUR, 33 cm 11,95 EUR y 40 cm 16,45 EUR. Tomate, mozzarella, pollo, bacon, jamon york, pepperoni y oregano.
+        price_cents: 895

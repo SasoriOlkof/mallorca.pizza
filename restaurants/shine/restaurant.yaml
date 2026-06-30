@@ -1,0 +1,29 @@
+id: shine
+enabled: true
+canonical_host: shine.mallorca.pizza
+aliases: []
+name: Shine Pizzeria
+description: Sabor que brilla
+assets:
+  logo:
+    path: branding/menu-shine-pizzeria.png
+    alt: Carta visual de Shine Pizzeria
+  hero:
+    path: branding/menu-shine-pizzeria.png
+    alt: Carta de pizzas, kebab, menus y entrantes de Shine Pizzeria
+  gallery:
+    - path: branding/menu-shine-pizzeria.png
+      alt: Menu completo de Shine Pizzeria
+blocks:
+  - type: hero
+    variant: poster
+    title: Shine Pizzeria
+    subtitle: Pizzas, kebab, burgers y menus
+    image: branding/menu-shine-pizzeria.png
+  - type: menu
+    variant: full
+    show_descriptions: true
+  - type: gallery
+    variant: strip
+    images:
+      - branding/menu-shine-pizzeria.png
