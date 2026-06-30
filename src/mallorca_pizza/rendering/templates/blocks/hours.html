@@ -1,0 +1,9 @@
+<section data-block="hours" data-variant="{{ block.variant }}">
+  <h2>Horario</h2>
+  <dl>
+    {% for period in page.bundle.restaurant.opening_hours %}
+    <dt>{{ period.label }}</dt>
+    <dd>{{ period.value }}</dd>
+    {% endfor %}
+  </dl>
+</section>

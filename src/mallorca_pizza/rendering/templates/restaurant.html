@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.meta_title }}</title>
+    <meta name="description" content="{{ page.meta_description }}">
+    <link rel="canonical" href="{{ page.canonical_url }}">
+    <link rel="stylesheet" href="/static/css/site.css">
+    <style>
+      :root {
+        {% for name, value in page.theme_variables.items() %}
+        {{ name }}: {{ value }};
+        {% endfor %}
+      }
+    </style>
+    {% if page.bundle.seo.structured_data_enabled %}
+    <script type="application/ld+json">{{ page.structured_data | tojson }}</script>
+    {% endif %}
+  </head>
+  <body data-restaurant="{{ page.restaurant_id }}">
+    <header>
+      <p>mallorca.pizza</p>
+      <h1>{{ page.restaurant_name }}</h1>
+      {% if page.bundle.restaurant.description %}
+      <p>{{ page.bundle.restaurant.description }}</p>
+      {% endif %}
+    </header>
+    <main>
+      {% for rendered_block in page.blocks %}
+      {% with block = rendered_block.block %}
+      {% include rendered_block.template_name %}
+      {% endwith %}
+      {% endfor %}
+    </main>
+    <footer>
+      <p>{{ page.restaurant_name }}</p>
+    </footer>
+  </body>
+</html>

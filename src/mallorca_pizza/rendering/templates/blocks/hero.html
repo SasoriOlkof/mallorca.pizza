@@ -1,0 +1,10 @@
+<section data-block="hero" data-variant="{{ block.variant }}">
+  <h2>{{ block.title }}</h2>
+  {% if block.subtitle %}
+  <p>{{ block.subtitle }}</p>
+  {% endif %}
+  {% set asset = page.asset_for(block.image) %}
+  {% if asset %}
+  <img src="{{ asset.media_path }}" alt="{{ '' if asset.decorative else asset.alt }}" loading="eager">
+  {% endif %}
+</section>

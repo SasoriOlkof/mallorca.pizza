@@ -1,0 +1,16 @@
+<section data-block="contact" data-variant="{{ block.variant }}">
+  <h2>Contacto</h2>
+  {% if page.bundle.restaurant.contact %}
+  <address>
+    {% if page.bundle.restaurant.contact.address %}
+    <p>{{ page.bundle.restaurant.contact.address }}</p>
+    {% endif %}
+    {% if page.bundle.restaurant.contact.phone %}
+    <p>{{ page.bundle.restaurant.contact.phone }}</p>
+    {% endif %}
+    {% if page.bundle.restaurant.contact.email %}
+    <p>{{ page.bundle.restaurant.contact.email }}</p>
+    {% endif %}
+  </address>
+  {% endif %}
+</section>

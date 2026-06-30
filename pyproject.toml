@@ -1,0 +1,63 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mallorca-pizza"
+version = "0.1.0"
+description = "Host-resolved multi-site restaurant platform for mallorca.pizza."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "fastapi>=0.116.0",
+  "jinja2>=3.1.0",
+  "pydantic>=2.11.0",
+  "pyyaml>=6.0.0",
+  "uvicorn[standard]>=0.35.0",
+]
+
+[project.scripts]
+mallorca-pizza-serve = "mallorca_pizza.server:main"
+mallorca-pizza-validate-config = "mallorca_pizza.validate_config:main"
+
+[dependency-groups]
+dev = [
+  "httpx>=0.28.0",
+  "mypy>=1.17.0",
+  "pytest>=8.4.0",
+  "ruff>=0.12.0",
+  "types-pyyaml>=6.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mallorca_pizza"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+  "--strict-config",
+  "--strict-markers",
+]
+
+[tool.ruff]
+line-length = 88
+src = ["src", "tests"]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+  "B",
+  "E",
+  "F",
+  "I",
+  "SIM",
+  "UP",
+]
+
+[tool.mypy]
+python_version = "3.13"
+mypy_path = "src"
+files = ["src", "tests"]
+strict = true
+warn_unreachable = true
+pretty = true

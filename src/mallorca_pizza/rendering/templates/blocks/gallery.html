@@ -1,0 +1,13 @@
+<section data-block="gallery" data-variant="{{ block.variant }}">
+  <h2>Galeria</h2>
+  <ul>
+    {% for image_path in block.images %}
+    {% set asset = page.asset_for(image_path) %}
+    {% if asset %}
+    <li>
+      <img src="{{ asset.media_path }}" alt="{{ '' if asset.decorative else asset.alt }}" loading="lazy">
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>

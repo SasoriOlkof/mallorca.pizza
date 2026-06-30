@@ -1,0 +1,19 @@
+<section data-block="menu" data-variant="{{ block.variant }}">
+  <h2>Menu</h2>
+  {% for category in page.bundle.menu.categories %}
+  <section>
+    <h3>{{ category.name }}</h3>
+    <ul>
+      {% for item in category.items %}
+      <li>
+        <strong>{{ item.name }}</strong>
+        {% if block.show_descriptions and item.description %}
+        <span>{{ item.description }}</span>
+        {% endif %}
+        <span>{{ page.price(item.price_cents) }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</section>
